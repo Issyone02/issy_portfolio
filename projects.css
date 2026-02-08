@@ -1,0 +1,52 @@
+/* --- Project Page Specific Styles --- */
+.projects-section {
+  padding: 150px 12% 100px;
+  background: #f1f1f1;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.project-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease;
+  border-bottom: 5px solid transparent;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-bottom: 5px solid orangered;
+}
+
+.project-card i {
+  font-size: 50px;
+  color: orangered;
+  margin-bottom: 1rem;
+}
+
+.video-placeholder {
+  width: 100%;
+  height: 180px;
+  background: #333;
+  margin: 15px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

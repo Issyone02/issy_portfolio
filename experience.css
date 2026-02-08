@@ -1,0 +1,86 @@
+/* --- Experience Page Specific Styles --- */
+.experience-section {
+  padding: 150px 12% 100px;
+  background: #f1f1f1;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.industry-title {
+  font-size: 28px;
+  color: black;
+  margin: 40px 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 5px solid orangered;
+  padding-left: 15px;
+}
+
+.industry-title i {
+  color: orangered;
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 50px;
+}
+
+.exp-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid orangered;
+  transition: 0.3s;
+}
+
+.exp-card:hover {
+  transform: scale(1.02);
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.exp-header h4 {
+  font-size: 20px;
+  color: black;
+}
+
+.location {
+  font-size: 14px;
+  color: orangered;
+  font-weight: 600;
+}
+
+.client-note {
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.role-list li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.role-list i {
+  color: orangered;
+  margin-right: 8px;
+  font-weight: bold;
+}
