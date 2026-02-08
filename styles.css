@@ -342,3 +342,11 @@ span {
     width: 100%;
   }
 }
+
+/* 1. Default State: Hide the icon on Big Screens */
+#menu-icon {
+  display: none; /* This ensures it is invisible on desktop */
+  font-size: 3.5rem;
+  color: white;
+  cursor: pointer;
+}
