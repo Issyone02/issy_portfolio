@@ -51,14 +51,14 @@ span {
   color: var(--main-color);
 }
 
-navbar a {
+.navbar a {
   font-size: 18px;
   color: white;
-  font-weight: 700;
-  margin: 0 20px;
-  border-bottom: 3px solid transparent;
-  transition: 0.5s ease;
+  font-weight: 600;
+  margin-left: 35px;
+  transition: 0.3s;
 }
+
 .navbar a:hover,
 .navbar a.active {
   color: orangered;
@@ -341,12 +341,4 @@ navbar a {
     flex-direction: column;
     width: 100%;
   }
-}
-
-/* 1. Default State: Hide the icon on Big Screens */
-#menu-icon {
-  display: none; /* This ensures it is invisible on desktop */
-  font-size: 3.5rem;
-  color: white;
-  cursor: pointer;
 }
