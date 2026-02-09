@@ -82,6 +82,7 @@ span {
   letter-spacing: 1px;
   font-weight: 600;
   transition: 0.5s ease;
+  margin-left: 50px;
 }
 .contact:hover {
   background-color: orangered;
