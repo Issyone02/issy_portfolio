@@ -163,7 +163,7 @@ span {
   border: 2px solid black;
 }
 
-..img-box img {
+.img-box img {
   width: 220px;
   border-radius: 50%;
   border: none;
@@ -213,7 +213,6 @@ span {
   justify-content: center;
   margin: 25px 0 3em;
 }
-
 
 /* Footer */
 .footer {
