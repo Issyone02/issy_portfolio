@@ -165,10 +165,13 @@ span {
 
 .img-box img {
   width: 220px;
+  box-shadow:
+    0 0 25px orangered,
+    0 0 50px orangered;
   border-radius: 50%;
-  border: orangered;
 }
 
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 15px;
 }
