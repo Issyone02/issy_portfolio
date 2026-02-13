@@ -166,7 +166,7 @@ span {
 .img-box img {
   width: 220px;
   border-radius: 50%;
-  border: none;
+  border: orangered;
 }
 
 ::-webkit-scrollbar {
