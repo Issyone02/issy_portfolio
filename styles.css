@@ -324,7 +324,7 @@ span {
     padding-top: 120px;
   }
   .img-box img {
-    width: 50vw;
+    width: 140px;
     margin-bottom: 30px;
   }
   .about {
@@ -332,6 +332,6 @@ span {
     text-align: center;
   }
   .about-img img {
-    width: 50vw;
+    width: 140px;
   }
 }
