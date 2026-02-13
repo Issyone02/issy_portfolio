@@ -185,15 +185,16 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 10%;
-  gap: 5em;
+  padding: 12% 8%;
+  gap: 10em;
   background: black;
-  color: white;
 }
-
 .about-img img {
-  width: 20vw;
-  box-shadow: 0 0 25px var(--main-color);
+  position: relative;
+  width: 220px;
+  box-shadow:
+    0 0 25px orangered,
+    0 0 50px orangered;
   border-radius: 50%;
 }
 
