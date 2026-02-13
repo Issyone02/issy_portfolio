@@ -189,7 +189,7 @@ span {
   justify-content: center;
   align-items: center;
   padding: 12% 8%;
-  gap: 10em;
+  gap: 3em;
   background: black;
 }
 .about-img img {
@@ -319,6 +319,7 @@ span {
   }
 
   .home {
+    margin: auto;
     flex-direction: column-reverse;
     text-align: center;
     padding-top: 120px;
@@ -328,10 +329,24 @@ span {
     margin-bottom: 30px;
   }
   .about {
+    margin: auto;
     flex-direction: column;
     text-align: center;
   }
+
+  .btn-box {
+    display: inline-block;
+    margin-top: 20px;
+  }
   .about-img img {
     width: 140px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content h2 {
+    font-size: 36px;
+    text-align: center;
   }
 }
