@@ -28,6 +28,17 @@
   border-bottom: 5px solid transparent;
 }
 
+.project-card h3 {
+  margin: 15px 0;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
 .project-card:hover {
   transform: translateY(-10px);
   border-bottom: 5px solid orangered;
